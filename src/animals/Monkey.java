@@ -1,5 +1,6 @@
 package animals;
 public class Monkey extends Animal implements WildAnimal{
+
     public static final String SOUND = "Uhaha";
     private long id;
     private short legs;
@@ -12,11 +13,11 @@ public class Monkey extends Animal implements WildAnimal{
     private boolean isHealthy;
     private boolean likeStealing;
     public String name;
+
     public Monkey(long id, short legs, int tails, int hands, double weight, String ownSound,
                   double height, String color, boolean isHealthy, int age) {
         super(age);
-        // super();
-        //super.age = age;
+
         this.id = id;
         this.legs = legs;
         this.tails = tails;
@@ -51,8 +52,7 @@ public class Monkey extends Animal implements WildAnimal{
         System.out.println("punching");
     }
 
-    //jedna metoda prywatna, sprawdzająca coś. do tego 2 jakieś publiczne np kradnij, chodz, jedz.
-    // Jedna statyczna: wydajaca np dzwiek domyslny (SOUND)
+
     @Override
     void makeSound(){
         System.out.println("uhaha");
@@ -75,6 +75,7 @@ public class Monkey extends Animal implements WildAnimal{
                 ", name='" + name + '\'' +
                 '}';
     }
+    //Getters and Setters
     public long getId() {
         return id;
     }

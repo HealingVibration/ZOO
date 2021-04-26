@@ -75,6 +75,13 @@ public class Elephant extends Animal implements WildAnimal{
             System.out.println("This weight is NOT possible");
         }
     }
+
+    @Override
+    void makeSound() {
+        System.out.println("tiuuu");
+    }
+
+    //Getters and Setters
     public int getTrunkNumber() {
         return trunkNumber;
     }
@@ -106,8 +113,4 @@ public class Elephant extends Animal implements WildAnimal{
         this.playBeautiful = playBeautiful;
     }
 
-    @Override
-    void makeSound() {
-        System.out.println("tiuuu");
-    }
 }

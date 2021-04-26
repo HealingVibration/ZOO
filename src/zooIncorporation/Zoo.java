@@ -74,23 +74,6 @@ public class Zoo {
     public void setWildAnimals(WildAnimal[] wildAnimals) {
         this.wildAnimals = wildAnimals;
     }
-    /*  public Monkey[] getMonkeys() {
-        return monkeys;
-    }
-
-    public void setMonkeys(Monkey[] monkeys) {
-        this.monkeys = monkeys;
-    }
-
-    public Elephant[] getElephants() {
-        return elephants;
-    }
-
-    public void setElephants(Elephant[] elephants) {
-        this.elephants = elephants;
-    }
-*/
-
 
     public int getNumbersOfAnimals(){
         return this.animals.length;

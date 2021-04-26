@@ -9,6 +9,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
+
         Employee employee1 = new Employee(19, "Konstanty", "Koniczynka", "mundur", (short) 10,
                 3, true, (long) 3500, "Monkeys", "Male");
         Employee employee2 = new Employee(20, "Patrycja", "Koniczynka", "mundur", (short) 10,
